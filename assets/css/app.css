@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+        body {
+            background-color: #303030;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .mirror {
+            display: inline-block;
+            -moz-transform: scale(-1, 1);
+            -webkit-transform: scale(-1, 1);
+            -o-transform: scale(-1, 1);
+            -ms-transform: scale(-1, 1);
+            transform: scale(-1, 1);
+        }
+
+        h1 {
+            font-size: 6rem;
+            font-family: 'Nunito', sans-serif;
+            text-align: center;
+        }
+
+        h1 .f {
+            font-size: 3rem;
+        }
+
+        .f {
+            color: #3de6f9;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .social {
+            margin-top: 20px;
+        }
+
+        .social img {
+            max-height: 32px;
+        }
+
+        .social a+a {
+            margin-left: 40px;
+        }
+
+        .contact {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .powered {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .powered div {
+            margin-bottom: 12px;
+        }
+
+        .powered img {
+            max-height: 40px;
+        }
+
+        .btn.blue {
+            display: inline-block;
+            color: #3de6f9;
+            border: 1px solid #3de6f9;
+        }
+
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 3rem;
+            }
+
+            h1 .f {
+                font-size: 1.5rem;
+            }
+
+            .social a+a {
+                margin-left: 32px;
+            }
+        }
